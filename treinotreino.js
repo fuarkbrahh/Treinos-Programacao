@@ -52,7 +52,7 @@ console.log((10 == 10 )|| (10 >20 ));
 
 console.log((10 == 10) && (10 > 20)); */
 
-let idade = 60;
+/* let idade = 60;
 
 if (idade <= 17){
 console.log("Sou menos de idade");
@@ -76,7 +76,45 @@ break;
 default:
 console.log("Sair");
 }
+*/
 
-// coisas novas!
-// tentando
-// novas coisas aqui!
+// for
+/*
+for (var i = 0; i < 10; i++ ) {
+    console.log("Olá mundo");
+}
+*/
+// while
+
+/* var j = 0;
+while (j < 10 ) {
+    console.log("Olá Mundo!");
+    j++;
+}
+var k = 0;
+*/
+
+/*
+var k = 11;
+do {
+    console.log("ola mundo");
+    k++;
+} while (k < 10);
+ */
+
+
+function verificarIdade(idade) {
+    if (idade <= 17){
+        return "Sou menor de idade";
+        } else if (idade > 17 && idade < 60) {
+        return "Sou adulto";
+        } else {
+        return "Estou na melhor idade";
+        } 
+}
+
+console.log (verificarIdade(11));
+
+console.log (verificarIdade(23));
+
+console.log (verificarIdade(76));
